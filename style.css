@@ -21,6 +21,8 @@ a {
 .nav-link {
 	color: white;
 	font-size: 14px;
+
+	text-align: right;
 }
 
 .welcome-container {
@@ -103,6 +105,8 @@ form {
 
 	padding-top: 10px;
 	padding-bottom: 10px;
+
+	font-family: Arial;
 }
 
 nav {
@@ -113,7 +117,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 
-	width:100%;
+	width:89%;
 	height:100px;
 	background-color:#334759;
 
@@ -136,11 +140,16 @@ nav {
 	display: flex;
 	flex-direction: row;
 
+	font-family: Arial;
 	margin-right: 20px;
 }
 
 .subform {
 	margin-bottom: 20px;
+}
+
+label {
+	font-family: Arial;
 }
 
 #orange-banner-link {
@@ -172,17 +181,23 @@ nav {
 	color: #4F4F4F;
 	margin-bottom: 50px;
 	font-size:24px;
-	font-family:Arial;
+	font-family: Arial;
 }
 
 .footer-info-link {
 	color: #4F4F4F;
 	margin-bottom: 16px;
+
+	font-family: Arial;
 }
 
 #footer-logo {
 	width:140px;
 	height:40px;
+}
+
+#logo-copyright {
+	font-family: Arial;
 }
 
 #social-media-icons {
@@ -194,6 +209,13 @@ nav {
 }
 
 #copyright {
-	justify-content: space-around;
 	color: #4F4F4F;
+
+	font-family: Arial;
+	margin-top: 40px;
+}
+
+#house-icon {
+	margin-left: 80px;
+	margin-right: 100px;
 }
