@@ -60,12 +60,18 @@ a {
 
 .query {
 	float: left;
+	margin-left:12px;
 }
 
 .query-input {
     margin: 0 0 10px 0;
     -webkit-appearance: none;
     -moz-appearance: none;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid orange 1px;
 }
 
 .check-input {
@@ -106,7 +112,7 @@ form {
 	padding-top: 10px;
 	padding-bottom: 10px;
 
-	font-family: Helvetica;
+	font-family: Arial;
 }
 
 nav {
